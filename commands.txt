@@ -1,0 +1,2 @@
+docker build --tag python-docker-flask .
+docker run -p 5009:8000 python-docker-flask
